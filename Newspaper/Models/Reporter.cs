@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Newspaper.Models
+{
+    public class Reporter
+    {
+        public string Name { get; set; }
+        public string Speciality { get; set; }
+        public List<Article> Articles { get; set; } = new();
+
+    }
+}
